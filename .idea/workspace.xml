@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ef567ba-5b2e-4ddb-904a-719936631e68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/TKinter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassGen/LOGO.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassGen/pass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassGen/password.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/important.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logo.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/БазаДанных.txt" afterDir="false" />
+    <list default="true" id="4ef567ba-5b2e-4ddb-904a-719936631e68" name="Changes" comment="Gen">
+      <change beforePath="$PROJECT_DIR$/PassGen/pass.py" beforeDir="false" afterPath="$PROJECT_DIR$/PassGen/pass.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,9 +121,22 @@
       <option name="presentableId" value="Default" />
       <updated>1717413967167</updated>
     </task>
+    <task id="LOCAL-00001" summary="Gen">
+      <option name="closed" value="true" />
+      <created>1717495216076</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717495216076</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.spec" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Gen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gen" />
   </component>
 </project>
