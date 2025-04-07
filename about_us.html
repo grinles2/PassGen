@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О Нас</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            display: flex;
+        }
+
+        header {
+            background-color: #2a4b8d;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        .sidebar {
+            background-color: #2a4b8d;
+            color: white;
+            width: 250px;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .sidebar nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar nav ul li {
+            margin: 15px 0;
+        }
+
+        .sidebar nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .sidebar nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            flex: 1;
+        }
+
+        .banner {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .banner img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .paragraphs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .paragraph {
+            flex: 1 1 calc(33.333% - 20px);
+            background-color: white;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .paragraph p {
+            margin: 0;
+        }
+
+        .discord {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .discord img {
+            max-width: 50px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        .discord a {
+            display: inline-block;
+            background-color: #5865F2;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .discord a:hover {
+            background-color: #4752C4;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="#">О Нас - Вы тут</a></li>
+                <li><a href="mobs.html">Мобы</a></li>
+                <li><a href="items.html">Вещи</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>О Нас</h1>
+        </header>
+
+        <div class="banner">
+            <img src="photos/server-banner.png" alt="Server Banner">
+        </div>
+
+        <div class="paragraphs">
+            <div class="paragraph">
+                <p>Мы онлайн уже 2 сезон подряд. С адекватной и активной администрацией</p>
+            </div>
+            <div class="paragraph">
+                <p>GrinLes - Тех Админ сервера делает всё возможное чтоб игра была комфортная включая данный сайт</p>
+            </div>
+            <div class="paragraph">
+                <p>На нашем сервере есть кастомные мобы и инструменты а так же ресурспак для них</p>
+            </div>
+            <div class="paragraph">
+                <p>Мы сильно заботимся об игроках и помогаем в случае любого конфликта</p>
+            </div>
+        </div>
+
+        <div class="discord">
+            <img src="photos/discord.png">
+            <a href="https://discord.gg/RNwP9ggw">Наш Дискорд Сервер</a>
+        </div>
+
+        <div class="discord">
+            <img src="photos/logo.png">
+            <a href="https://fortreesworld.trademc.org/"> Авто-Магазин с донатом</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
